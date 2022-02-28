@@ -1,0 +1,67 @@
+<section class="container-fluid bg-dark sticky-top">
+	<div class="row">
+		<ul class="nav justify-content-end nav-tabs">
+			{% if url == '/' %}
+				<li class="nav-item">
+					<a class="nav-link active" href="/">
+						<strong>CV</strong>
+					</a>
+				</li>
+				<li class="nav-item d-none d-sm-block">
+					<a class="nav-link" style="color:#708f6c;" href="#experience">Experiences</a>
+				</li>
+				<li class="nav-item d-none d-sm-block">
+					<a class=" nav-link" style="color:#708f6c;" href="#formation">Formations</a>
+				</li>
+				<li class="nav-item d-none d-sm-block">
+					<a class=" nav-link" style="color:#708f6c;" href="#competences">Compétences</a>
+				</li>
+				<li class="nav-item d-none d-sm-block">
+					<a class=" nav-link" style="color:#708f6c;" href="#contact">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-light" href="/portfolio">
+						<strong>Portfolio</strong>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-light" href="/before">
+						<strong>Avant-Projet</strong>
+					</a>
+				</li>
+			{% elseif url == '/portfolio' %}
+				<li class="nav-item">
+					<a class="nav-link text-light " href="/">
+						<strong>CV</strong>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active " href="/portfolio">
+						<strong>Portfolio</strong>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-light " href="/before">
+						<strong>Avant Projet</strong>
+					</a>
+				</li>
+			{% elseif url == '/before' %}
+				<li class="nav-item ">
+					<a class="nav-link text-light " href="/">
+						<strong>CV</strong>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-light " href="/portfolio">
+						<strong>Portfolio</strong>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active " href="/before">
+						<strong>Avant Projet</strong>
+					</a>
+				</li>
+			{% endif %}
+		</ul>
+	</div>
+</section>
