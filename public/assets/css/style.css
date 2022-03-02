@@ -9,11 +9,11 @@
 }
 
 header{
-   background-image: url(.././images/fancy-pants.jpg); 
+   background-image: url(.././images/elements/fancy-pants.jpg); 
 position:static; }
 
 footer{
-background-image: url(.././images/fancy-pants.jpg);
+background-image: url(.././images/elements/fancy-pants.jpg);
 height: 10em;
 margin: 0px;
 padding: 0px;
@@ -144,7 +144,10 @@ h4, h3, h6{
     height: 3em;
 }
 
-
+.cell .face2 .content img {
+    width:60px;
+    height:60px;
+}
 
 
 /* --------------------------------------------------- CARDS PORTFOLIO --------------------------------------------------- */
@@ -208,57 +211,57 @@ h4, h3, h6{
     font-weight: 100;
 }
 .one {
-    background: url('../images/projet_mario.png');
+    background: url('../images/portfolio/projet_mario.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .two {
-    background: url('../images/projet2.png');
+    background: url('../images/portfolio/projet_drop.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .three {
-    background: url('../images/projet_morpion.png');
+    background: url('../images/portfolio/projet_morpion.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .for {
-    background: url('../images/projet_indexation.png');
+    background: url('../images/portfolio/projet_indexation.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .five {
-    background: url('../images/projet_indexation.png');
+    background: url('../images/portfolio/projet_indexation.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .six {
-    background: url('../images/projet_clash.png');
+    background: url('../images/portfolio/projet_clash.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .seven {
-    background: url('../images/projet_portfolio.png');
+    background: url('../images/portfolio/projet_portfolio.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .eight {
-    background: url('../images/projet7.jpeg');
+    background: url('../images/portfolio/projet_search.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .nine {
-    background: url('../images/projet8.jpeg');
+    background: url('../images/portfolio/projet_end.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

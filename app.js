@@ -23,7 +23,9 @@ app.get('/', async (req, res) => {
 })
 
 app.get('/lexique', async (req, res) => {
-    res.render('./layout/lexique.html.twig')
+    res.render('./layout/lexique.html.twig', {
+        url: '/lexique',
+    })
 })
 
 
