@@ -16,7 +16,7 @@ let click_count = 0;
 let sum = 0
 
 for (let i = 0; i < 2; i++) {
-    for (let j = 0; j < 10; j++) {
+    for (let j = 0; j < 9; j++) {
         grid.push(j);
     }
 }
@@ -38,7 +38,7 @@ document.querySelectorAll('.cell').forEach((cell, index) => {
             cell.querySelector('.face2 .content').innerHTML = '<img src="./images/origami/chauve-souris.png">';
             break;
         case '3':
-            cell.querySelector('.face2 .content').innerHTML = '<img src="./images/origami/cochon.png">';
+            cell.querySelector('.face2 .content').innerHTML = '<img src="./images/origami/poisson.png">';
             break;
         case '4':
             cell.querySelector('.face2 .content').innerHTML = '<img src="./images/origami/dinosaure.png">';
@@ -54,9 +54,6 @@ document.querySelectorAll('.cell').forEach((cell, index) => {
             break;
         case '8':
             cell.querySelector('.face2 .content').innerHTML = '<img src="./images/origami/oiseau.png">';
-            break;
-        case '9':
-            cell.querySelector('.face2 .content').innerHTML = '<img src="./images/origami/poisson.png">';
             break;
         default:
             break;
@@ -82,10 +79,10 @@ document.querySelectorAll('.cell').forEach((cell, index) => {
         document.querySelectorAll('.cell').forEach(cell => {
             sum += parseInt(cell.getAttribute('validate'));
         });
-        if (sum === 20) {
-            document.getElementById('win').innerHTML = 'Bravo vous pouvez me recruter !! ';
+        if (sum === 18) {
+            alert('Vous avez gagné, prochaine étape : me recruter !!! ');
+            window.scrollTo(0, 3306);
         }
     });
 });
 
-console.log('test');
