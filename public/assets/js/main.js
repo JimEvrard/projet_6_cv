@@ -85,4 +85,3 @@ document.querySelectorAll('.cell').forEach((cell, index) => {
         }
     });
 });
-

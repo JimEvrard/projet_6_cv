@@ -34,7 +34,30 @@ padding: 0px;
     box-shadow: 5px 5px 5px black;
 }
 
+/* --------------------------------------------------- Pendu --------------------------------------------------- */
 
+
+
+.board-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.inputs-group input {
+	width: 50px;
+	text-align: center;
+}
+
+
+.pendu{
+height: 150px;}
+
+.img-container img {
+    height:150px;
+  
+}
 /* --------------------------------------------------- LOGOS --------------------------------------------------- */
 
 .logo_exp{
