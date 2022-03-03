@@ -85,3 +85,25 @@ document.querySelectorAll('.cell').forEach((cell, index) => {
         }
     });
 });
+
+// ---------------------------------------------------- Carousel ----------------------------------------------------
+
+const img = document.getElementById('carousel');
+const rightBtn = document.getElementById('right-btn');
+
+let pictures = ['./images/hobbies/me.png', './images/hobbies/me5.jpeg', './images/hobbies/me6.jpeg', './images/hobbies/me4.jpg', './images/hobbies/me2.jpg', './images/hobbies/me3.jpg'];
+
+img.src = pictures[0];
+let position = 0;
+
+const moveRight = () => {
+    if (position >= pictures.length - 1) {
+        position = 0
+        img.src = pictures[position];
+        return;
+    }
+    img.src = pictures[position + 1];
+    position++;
+}
+
+rightBtn.addEventListener("click", moveRight);
