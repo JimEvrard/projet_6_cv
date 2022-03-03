@@ -91,7 +91,7 @@ document.querySelectorAll('.cell').forEach((cell, index) => {
 const img = document.getElementById('carousel');
 const rightBtn = document.getElementById('right-btn');
 
-let pictures = ['./images/hobbies/me.png', './images/hobbies/me5.jpeg', './images/hobbies/me6.jpeg', './images/hobbies/me4.jpg', './images/hobbies/me2.jpg', './images/hobbies/me3.jpg'];
+let pictures = ['./images/hobbies/me.png', './images/hobbies/me5.jpeg', './images/hobbies/me6.jpeg', './images/hobbies/me4.jpeg', './images/hobbies/me2.jpeg', './images/hobbies/me3.jpeg'];
 
 img.src = pictures[0];
 let position = 0;
